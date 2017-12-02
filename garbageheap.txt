@@ -1,0 +1,4 @@
+	char myString[] = "string"; // creates an array of chars with a null terminator at the end
+	char myString1[] = {'s','t','r','i','n','g','\0'};
+	if(strcmp(myString,myString1) == 0)
+		cout << "long lvie the king";
